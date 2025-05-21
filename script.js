@@ -1,35 +1,69 @@
-// console.log("Hello World");
-
-// console.log("Hii");
-
-// console.log(12);
-
-//keywords let var const
+// //Hoisting in js
+// var a = "Hello";
+// console.log(a);
+// var a;
+// //operators
 
 
-// var declares a function-scoped variable that can be redeclared and reassigned.
+//let
 
-var num = 20;
-var num = 85;
-var num = 90;
-console.log(num);
-var p = 10;
-var q = 11;
-var r = 10;
-console.log(p*q+r);
+let a = 45;
 
-// let declares a block-scoped variable that can be reassigned but not redeclared in the same scope.
+let b = 40;
+console.log(a+b);  //output = 85
 
-let a = 50;
-a = 60
-console.log(a);
+let m = 85;
 
-// const declares a block-scoped constant that cannot be reassigned or redeclared.
-
-const b = 20;
-console.log(b);
+let n = 65;
+console.log(m-n);
 
 
-//Alert pop button //
+let x = 55;
+let y = 60;
 
-alert("Hello, world")
+console.log(x%y);
+
+
+// const
+
+console.log(m*n);
+
+const c = 55;
+const d = 66;
+console.log(c+d)
+
+
+//comprision operator (==)
+let s = 50;
+let t = 55;
+console.log(s==t);
+
+//(===)
+
+let g = "55"; h =56;
+console.log(g===h);
+
+//not equal to operator
+let w = 56; v = 65;
+console.log(w!=v);
+
+//data type operator
+let j = 56; l = 65;
+console.log(j!==l);
+
+//greater less than operator
+
+let e = 66; f = 66;
+console.log(e>f);
+
+//less equal to
+let i = 55; h = 66;
+console.log(i<=h);
+
+let o = 66; p = 66;
+console.log(o<=p);
+
+
+
+
+
