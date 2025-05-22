@@ -1,68 +1,40 @@
-// //Hoisting in js
-// var a = "Hello";
-// console.log(a);
-// var a;
-// //operators
+//camparison operators
+//addition
+
+let a =15;
+a += 10;
+console.log(a);
 
 
-//let
+//substraction
 
-let a = 45;
-
-let b = 40;
-console.log(a+b);  //output = 85
-
-let m = 85;
-
-let n = 65;
-console.log(m-n);
+let b =15;
+b -= 10;
+console.log(b)
 
 
-let x = 55;
-let y = 60;
+//multiple
+let c = 15;
+c *= 10;
+console.log(b);
 
-console.log(x%y);
+//division
 
-
-// const
-
-console.log(m*n);
-
-const c = 55;
-const d = 66;
-console.log(c+d)
+let d = 15;
+d /= 10;
+console.log(d)
 
 
-//comprision operator (==)
-let s = 50;
-let t = 55;
-console.log(s==t);
+//Increment decrement
 
-//(===)
+let e = 45;
+//console.log(e++,e++,++e);
 
-let g = "55"; h =56;
-console.log(g===h);
+console.log(e,e++,e++,e++,++e,++e,++e,e,e++); //45 45 46 48 50 51 51 51 
 
-//not equal to operator
-let w = 56; v = 65;
-console.log(w!=v);
 
-//data type operator
-let j = 56; l = 65;
-console.log(j!==l);
-
-//greater less than operator
-
-let e = 66; f = 66;
-console.log(e>f);
-
-//less equal to
-let i = 55; h = 66;
-console.log(i<=h);
-
-let o = 66; p = 66;
-console.log(o<=p);
-
+let f = 78;
+console.log(f++,f--,--f,f,f++,f++,f--,f)
 
 
 
