@@ -1,97 +1,116 @@
-//&& == =!
+// let day = parseInt(prompt("Enter Your Number"));
 
-//let a = 80;
+ // You can change this value for testing
+// let day;
 
-//let b = 80;
-
-//let res=a>b&&a>=b;
-//console.log(res);
-
-//let res=a<b||a==b;
-//console.log(res);
-
-
-//let res = a < b || a !== b;
-
-//console.log(a < b ? "This is correct" : "This is incorrect");
-//console.log(a=b ? "This is eqaul" : "This is correct" :"This is incorrect");
-
-
-
-//console.log(!false);
-
-
-
-let a = 2;
-let b = 5;
-
-console.log(a+b);
-
-let number = 4567;
-
-let res = number / 1000;
-console.log(Math.floor(res));
-
-
-//if else statement
-let x = 5;
- 
-if (x>10){
-    console.log("x is greater than 10");
-    
+/*
+switch(day) {
+  case 1:
+    console.log("Monday");
+   // break;
+  case 2:
+    console.log("Tuesday");
+    //break;
+  case 3:
+    console.log("Wednesday");
+   // break;
+  case 4:
+    console.log("Thursday");
+   // break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid day");
 }
-else{
-    console.log("x is less than or equal to 10");
-    
+*/
+
+
+// Months
+let Months = parseInt(prompt("Enter Your Months"));
+
+switch (Months) {
+    case 1:
+        console.log("January");
+        break;
+        case 2:
+        console.log("Febuary")
+        break;
+        case 3:
+        console.log("March")
+        break;
+        case 4:
+        console.log("April")
+        break;
+        case 5:
+        console.log("May")
+        break;
+        case 6:
+        console.log("June")
+        break;
+        case 7:
+        console.log("July")
+        break;
+        case 8:
+        console.log("August")
+        break;
+        case 9:
+        console.log("September")
+        break;
+        case 10:
+        console.log("October")
+        break;
+        case 11:
+        console.log("November")
+        break;
+        case 12:
+        console.log("December")
+        break;
+
+
+    default:
+    console.log("Invalif months")
 }
 
 
 
-// 1. && Logical AND 
+// Student Grade cards
 
-let age = 22;
-let hasID = true;
+/*let marks = parseInt(prompt("Enter Your marks out of 50"));
 
-if (age>18 && hasID){
-    console.log("Entry allowed");
-}else{
-    console.log("Entry denied")
-}      //output : Entry allowed
+switch (true) {
+    case marks >=41 && marks <=50:
+        console.log("Grade D");
+        
+        break;
 
+        case marks >=31 && marks <=40:
+        console.log("Grade C");
+        
+        break;
+        case marks >=21 && marks <=30:
+        console.log("Grade B");
+        
+        break;
+        case marks >=11 && marks <=20:
+        console.log("Grade A");
+        
+        break;
 
-// 2. || Logical OR
+        case marks >=1 && marks <=10:
+        console.log("Grade A");
+        
+        break;
 
-let hasPassport = false;
-let hasAdhaar = true;
-
-if (hasPassport || hasAdhaar){
-    console.log("can verify idetify");
-    
-}else{
-    console.log("Identity verification failed");
-    
-}  //output : can verify identity
-
-
-// ! Logical NOT
-
-let inRaining = false;
-if (!inRaining){
-    console.log("Let's go outside");
-
-}else{
-    console.log("stay indoors")
-}   //output : Let's go outside
-
-
-let isSwitchOn = true;
-let isPowerAvailable = false;
-let isFuselBlown = false;
-
-if ((isSwitchOn && isPowerAvailable) || !isFuselBlown){
-    console.log("Light is ON");
-    
-}else{
-    console.log("Light is OFF");
-    
+    default:
+        console.log("Invalid Value")
 }
+
+*/
+
