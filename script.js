@@ -1,78 +1,106 @@
 /*
 
-
-let str = "Hello world and Hey world and world";
-
-let res = str.lastIndexOf("world",21);  //str.indexOf, //str.lastIndexOf
-
-console.log(res);*/
-
-
-var string1 = "Prep";
-
-var string2 = "Bytes";
-
-var string3 = string1 + string2;
-
-//In javaScript + concat method 
-
-console.log(string3);
-
-let str1 = "Hey...";
-let str2 = "India";
-
-console.log(str1.concat(str2));
-
-//slicing method
-/*
-let str = "Hello world and Hey world and world";
-
-let res = str.slice(10, -10); 
-
-console.log(res);*/
-
-//substring 
-/*
-var name = "You will be an amazing developer";
-
-var newMessage = name.substring(7,13);
-newMessage = name.substring(7); 
-console.log(newMessage);*/
-
-//replace
-/*
-let str = "Hello world and Hey world and world";
-
-let res = str.replace(" ", ".");  
-
-console.log(res);*/
-
-
-//trim method
-/*
-
-let str = "Hello world and Hey world and world";
-
-
-let res = str.trim(); 
-
-console.log(res);*/
-
-//split 
-/*
-let str = "Hello world and Hey world and world";
-
-let res = str.split("world")
-
-console.log(res);*/
-
-//length
-
-let str = "Hello world and Hey world and world";
-
-let res = str.length;  //str.indexOf, //str.lastIndexOf
-
+let text = "Hi Prepbytes";
+let res = text.slice("Hi Prepbytes".indexOf("Prepbytes"));
 console.log(res);
+*/
+/*
+//Arrays = An array is a special variable, which can hold more than one value:
+
+let arr = [2,4,5,7,8];
+
+console.log(arr.length);
+*/
+/*
+
+//push method = add number only
+
+let arr1 = ["hey", "I", "am","a", "Developer"];
+let res1 = arr1.push("and Designer");
+console.log(arr1);
+*/
+
+
+/*
+//slice = print under provides you under number
+
+let arr1 = ["hey", "I", "am", "Developer"];
+let res1 = arr1.slice(1,3);
+console.log(res1);
+
+*/
+
+/*
+
+//Tostring = convert into string to number
+
+
+let arr1 = ["hey", "I", "am", "Developer"];
+let res1 = arr1.toString();
+console.log(res1);
+
+*/
+
+/*
+
+//replaceAll method
+
+
+let arr1 = ["hey", "I", "am", "Developer"];
+let res1 = arr1.toString().replaceAll(",", " ");
+console.log(res1);
+
+*/
+
+/*
+
+//shift method
+
+let arr1 = ["hey", "I", "am", "Developer"];
+let res1 = arr1.shift();
+console.log(res1);
+console.log(arr1);
+
+*/
+
+/*
+
+//MAP method
+
+let arr = [2,4,5,7,8]
+
+let res1 = arr.map((a) => a + 4);
+
+console.log(res1);
+
+console.log(arr);
+
+*/
+
+
+/*
+//pop method 
+
+
+let arr1 = ["hey", "I", "am", "Developer"];
+let res1 = arr1.pop();
+console.log(res1);
+//console.log(arr1);
+
+*/
+
+//Filter
+
+let arr = [2,4,5,7,8]
+
+let res1 = arr.filter((a) =>a== 5);
+
+console.log(res1);
+
+
+
+
+
 
 
 
