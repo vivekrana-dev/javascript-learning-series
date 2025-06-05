@@ -1,109 +1,63 @@
-/*
-
-let text = "Hi Prepbytes";
-let res = text.slice("Hi Prepbytes".indexOf("Prepbytes"));
-console.log(res);
-*/
-/*
-//Arrays = An array is a special variable, which can hold more than one value:
-
-let arr = [2,4,5,7,8];
-
-console.log(arr.length);
-*/
-/*
-
-//push method = add number only
-
-let arr1 = ["hey", "I", "am","a", "Developer"];
-let res1 = arr1.push("and Designer");
-console.log(arr1);
-*/
+//Find method 
 
 
-/*
-//slice = print under provides you under number
+let arr1 = [2,4,5,7,9];
 
-let arr1 = ["hey", "I", "am", "Developer"];
-let res1 = arr1.slice(1,3);
-console.log(res1);
-
-*/
-
-/*
-
-//Tostring = convert into string to number
-
-
-let arr1 = ["hey", "I", "am", "Developer"];
-let res1 = arr1.toString();
-console.log(res1);
-
-*/
-
-/*
-
-//replaceAll method
-
-
-let arr1 = ["hey", "I", "am", "Developer"];
-let res1 = arr1.toString().replaceAll(",", " ");
-console.log(res1);
-
-*/
-
-/*
-
-//shift method
-
-let arr1 = ["hey", "I", "am", "Developer"];
-let res1 = arr1.shift();
-console.log(res1);
-console.log(arr1);
-
-*/
-
-/*
-
-//MAP method
-
-let arr = [2,4,5,7,8]
-
-let res1 = arr.map((a) => a + 4);
+let res1 = arr1.find((a)=> a === 9);
 
 console.log(res1);
 
-console.log(arr);
-
-*/
+// includes method
 
 
-/*
-//pop method 
+let arr2 = [4,8,5,75,84,6,7];
+
+let res2 = arr2.includes(50);  // also add reverse or includes : give output in True or False
+
+console.log(res2);
+
+//splice method 
 
 
-let arr1 = ["hey", "I", "am", "Developer"];
-let res1 = arr1.pop();
-console.log(res1);
-//console.log(arr1);
+let arr3 = [4,8,5,75,84,6,7];
 
-*/
+let res3 = arr3.slice(1,3,60);
 
-//Filter
-
-let arr = [2,4,5,7,8]
-
-let res1 = arr.filter((a) =>a== 5);
-
-console.log(res1);
+console.log(arr3);
 
 
+//Unshift method 
+
+let arr4 = [4,8,5,75,84,6,7];
+
+let res4 = arr4.unshift(87);
+
+console.log(arr4);
 
 
+//short method
 
+let arr5 = [4,8,5,75,84,6,7];
 
+let res5 = arr5.sort();
 
+console.log(arr5);
 
+//join method
+
+let arr6 = [4,8,5,75,84,6,7];
+
+let res6 = arr6.join(0);
+
+console.log(res6);
+
+//concat method
+
+let arr7 = [4,8,5,75,84,6,7];
+
+let res7 = arr7.concat(74,45,60);
+
+console.log(res7);
 
 
 
