@@ -1,63 +1,59 @@
-//Find method 
+//Find the value of ZERO and ONE, How many times are available.
+
+let arr = [0,1,1,1,0,0,0,1,1,0];
 
 
-let arr1 = [2,4,5,7,9];
+let count0 = 0;
+let count1 = 0;
 
-let res1 = arr1.find((a)=> a === 9);
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === 0) count0++;
+  else count1++;
+}
 
-console.log(res1);
-
-// includes method
-
-
-let arr2 = [4,8,5,75,84,6,7];
-
-let res2 = arr2.includes(50);  // also add reverse or includes : give output in True or False
-
-console.log(res2);
-
-//splice method 
+console.log("0:", count0);
+console.log("1:", count1);
 
 
-let arr3 = [4,8,5,75,84,6,7];
-
-let res3 = arr3.slice(1,3,60);
-
-console.log(arr3);
+//Find the odd and even
 
 
-//Unshift method 
+let arr1 = [3,6,7,8,9,1,0];
 
-let arr4 = [4,8,5,75,84,6,7];
+let even = 0;
+let odd = 0;
 
-let res4 = arr4.unshift(87);
+for ( i = 0; i < arr1.length; i++) {
+    if (arr1[i]%2 === even) even++;
+    else { 
+         odd++;
+    }
+}
 
-console.log(arr4);
+console.log("Even numbers",even);
+console.log("Odd numbers",odd);
 
 
-//short method
+//Find the duplicates
 
-let arr5 = [4,8,5,75,84,6,7];
 
-let res5 = arr5.sort();
+let arr2 = [4, 44, 4, 8, 7, 9, 2, 7, 2];
+let counts = {};
+let duplicates = [];
 
-console.log(arr5);
+for (let i = 0; i < arr2.length; i++) {
+  let num = arr2[i];
+  counts[num] = (counts[num] || 0) + 1;
+}
 
-//join method
+for (let key in counts) {
+  if (counts[key] > 1) {
+    duplicates.push(Number(key));
+  }
+}
 
-let arr6 = [4,8,5,75,84,6,7];
+console.log(duplicates);
 
-let res6 = arr6.join(0);
-
-console.log(res6);
-
-//concat method
-
-let arr7 = [4,8,5,75,84,6,7];
-
-let res7 = arr7.concat(74,45,60);
-
-console.log(res7);
 
 
 
