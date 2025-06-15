@@ -1,60 +1,63 @@
-//Find the value of ZERO and ONE, How many times are available.
+///Functions
+/*
+1. Regular Function
+2. Arrow Function
+3. Function Expression */
 
-let arr = [0,1,1,1,0,0,0,1,1,0];
+//1. Regular Function
+
+function fun(name,age) {
+    return console.log("Regular Function",name, age);
+    
+}
+fun("Sarthak",16);
 
 
-let count0 = 0;
-let count1 = 0;
+//2. Arrow Function
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === 0) count0++;
-  else count1++;
+const a = ()  => {
+    console.log("Arrow Function");
+    
+}
+a();
+
+//3. Function Expression 
+
+const b = function() {
+    console.log("Function Expression");
+    
+}
+b();
+
+
+//alert 
+function ShowMessage () {
+    alert("Welcome!");
+}
+ShowMessage();
+
+//create one functions with zero parameter having a console statement
+
+function greetRegular() {
+  console.log("Hello, this is a function with no parameters!");
 }
 
-console.log("0:", count0);
-console.log("1:", count1);
+greetRegular(); // Calling the function
+
+//create one arrow function with zero parameter having a console statement
+
+const greetArrow = () => {
+  console.log("Hello from an arrow function with no parameters!");
+};
+
+greetArrow(); // Calling the function
 
 
-//Find the odd and even
+//create one functions which takes three parameter as first name and last name and age and the return the statement as "A" is 99  years old  "2".
 
-
-let arr1 = [3,6,7,8,9,1,0];
-
-let even = 0;
-let odd = 0;
-
-for ( i = 0; i < arr1.length; i++) {
-    if (arr1[i]%2 === even) even++;
-    else { 
-         odd++;
-    }
+function personInfo(firstName, lastName, age) {
+  return `${firstName} ${lastName} is ${age} years old .`;
 }
 
-console.log("Even numbers",even);
-console.log("Odd numbers",odd);
-
-
-//Find the duplicates
-
-
-let arr2 = [4, 44, 4, 8, 7, 9, 2, 7, 2];
-let counts = {};
-let duplicates = [];
-
-for (let i = 0; i < arr2.length; i++) {
-  let num = arr2[i];
-  counts[num] = (counts[num] || 0) + 1;
-}
-
-for (let key in counts) {
-  if (counts[key] > 1) {
-    duplicates.push(Number(key));
-  }
-}
-
-console.log(duplicates);
-
-
-
-
+console.log(personInfo("Vivek",  "Rana", "24"));
 
